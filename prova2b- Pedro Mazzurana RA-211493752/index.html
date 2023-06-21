@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Prova</title>
+</head>
+<body>
+    <h1>Rick and Morty Characters</h1>
+    <div id="container">
+    </div>
+
+    <table>
+        <h1>Character Table</h1>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Total Episodes</th>
+            <th>Episode List</th>
+            <th>Rule</th>
+          </tr>
+        </thead>
+        <tbody id="characterTableBody"></tbody>
+      </table>
+
+      <h1>Add Character </h1>
+    <form id="registrationForm">
+        <div class="container-name">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" /required>       
+        </div>
+        <div class="container-gender">
+            <label for="gender">Gender:</label>
+            <input type="text" name="gender" id="gender" /required>       
+        </div>
+        <div class="container-episode">
+            <label for="episode">Episode:</label>
+            <input type="text" name="episode" id="episode" /required>       
+        </div>
+        <input type="submit" value="Registrar">
+    </form>
+    <table class="table" id="registrationTable">
+        <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Episode</th>
+        </tr>
+
+    </table>
+</div>
+
+
+
+
+    <script src="codigo.js"></script>
+
+
+
+</body>
+</html>
